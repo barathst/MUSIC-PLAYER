@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(135deg, #1db954, #121212);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    background: #181818;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.cover {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.title {
+    margin: 10px 0 5px;
+}
+
+.artist {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.progress-container {
+    background: #404040;
+    height: 6px;
+    border-radius: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.progress {
+    background: #1db954;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    transition: width 0.3s;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    color: #1db954;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player UI</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="player">
+    <img src="https://mmminimal.com/wp-content/uploads/2011/03/Pink-Floyd-Dark-Side-of-t.jpg" class="cover">
+
+    <h2 class="title">Dark Side of the Moon</h2>
+    <p class="artist">Pink Floyd</p>
+
+    <div class="progress-container" onclick="setProgress(event)">
+        <div class="progress"></div>
+    </div>
+
+    <div class="controls">
+        <button>⏮</button>
+        <button id="playBtn" onclick="togglePlay()">▶</button>
+        <button>⏭</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
